@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoapAuth xmlns="http://www.sourceid.org/2004/04/soapauth">
+    <Incoming/>
+    <Outgoing>
+        <X509Cert providerID="(IDP) ::: BAEtest" disableCertChainValidation="false">
+            <alias>x3l3kaga2iii5wvrbs3qjl3nn</alias>
+        </X509Cert>
+    </Outgoing>
+</SoapAuth>
