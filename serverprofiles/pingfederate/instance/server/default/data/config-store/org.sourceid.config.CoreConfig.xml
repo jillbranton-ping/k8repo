@@ -36,6 +36,7 @@
     <map name="SslPrivateKeyPasswords">
         <item name="x3l3kaga2iii5wvrbs3qjl3nn">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..P4AlmyDZFYzrWZv_Fn1o-g.U-0U_8BLi82QxoTON8KV8Fbfl79oDZNA72qVftSZOMc.AI2AiFHG0kV7pEJ1CnY1YQ</item>
         <item name="6wj19sdt3at5gobts98t6ot0a">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..j8uvOPjdXcZRTkPvhKEttQ.TbxwL41JNmd785nQFuupme0AUDdiRDHQluLYpdKaC3I.i67r1YDFFtjeeP3StATGxA</item>
+        <item name="byxrbzses79xnvk7qvl9w8s2o">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..BMl9JvaftEFK96Pi8y27YQ.kKepNiepWNhK_TMGZVPXpGnvzLBilDnxm2DLlBOoStw.dCXcxskVmuBc-R0zJy6yTw</item>
     </map>
     <!--SSL HSM Keystore information: name and password-->
     <item name="SslHSMKeystoreName">ping-ssl.hsmks</item>

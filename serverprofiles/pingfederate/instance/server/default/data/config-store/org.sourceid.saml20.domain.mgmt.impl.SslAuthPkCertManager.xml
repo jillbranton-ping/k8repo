@@ -4,4 +4,11 @@
     <con:map name="IDPconnection"/>
     <con:map name="https://sptest.iamshowcase.com/acs"/>
     <con:map name="BAEtest"/>
+    <con:map name="evaluation">
+        <con:item name="qwae0ka6e1oiywrl1vznrf5fn">SP</con:item>
+    </con:map>
+    <con:map name="evaluation2">
+        <con:item name="149tfxo2y7chc9y4gnitk22tv">SP</con:item>
+        <con:item name="mr5ekxode5zqdo33u93beg882">SP</con:item>
+    </con:map>
 </con:config>
