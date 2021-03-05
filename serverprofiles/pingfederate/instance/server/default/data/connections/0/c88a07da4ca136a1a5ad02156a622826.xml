@@ -20,7 +20,7 @@
     </md:Extensions>
     <md:RoleDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" xsi:type="urn:AttributeQueryDescriptorType" xmlns:urn="urn:oasis:names:tc:SAML:metadata:ext:query" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <md:Extensions>
-            <urn1:RoleExtension LastModified="2021-02-18T19:20:32.915Z" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+            <urn1:RoleExtension LastModified="2021-03-04T18:13:56.366Z" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
                 <urn1:SP>
                     <urn1:AdapterToAssertionMapping>
                         <urn1:DefaultAttributeMapping>
