@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
+    <con:map name="SsoDirectoryService">
+        <con:item name="isActive">false</con:item>
+    </con:map>
+    <con:map name="JMX"/>
+    <con:map name="ConnectionManagement"/>
+    <con:map name="AttributeQuery">
+        <con:item name="id">baetestID</con:item>
+        <con:item name="confirmSharedSecret">It-2UuLRONTwSa-bEzgTAfGknZyCfIY-VTXcW2HxYzM.O_cjtvNL.2</con:item>
+        <con:item name="isActive">true</con:item>
+        <con:item name="sharedSecret">It-2UuLRONTwSa-bEzgTAfGknZyCfIY-VTXcW2HxYzM.O_cjtvNL.2</con:item>
+    </con:map>
+</con:config>
