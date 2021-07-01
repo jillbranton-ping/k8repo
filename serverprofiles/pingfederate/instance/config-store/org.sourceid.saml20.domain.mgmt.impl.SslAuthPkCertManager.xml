@@ -20,4 +20,5 @@
     <con:map name="https://sptest.iamshowcase.com/acs/FileCloud"/>
     <con:map name="https://decoder.pingidentity.cloud/saml"/>
     <con:map name="FileCloud-Decoder"/>
+    <con:map name="PullfromCertandAD"/>
 </con:config>

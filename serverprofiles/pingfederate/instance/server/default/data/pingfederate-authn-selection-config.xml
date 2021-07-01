@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urn:AuthnSelectionConfig lastModifiedMillis="1618595952700" enableAuthnSelection="true" enableSpAuthnSelection="false" failIfNoSelection="false" xmlns:urn="urn:pingidentity.com:pf:authn-selection">
-    <urn:AuthnSelectionTrees/>
-    <urn:DefaultAuthnSources>
-        <urn:AuthnSourceKey type="ADAPTER">PaQuickStartHtmlForm</urn:AuthnSourceKey>
-    </urn:DefaultAuthnSources>
-</urn:AuthnSelectionConfig>
