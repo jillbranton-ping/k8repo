@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ker:KerberosRealmsSettings xmlns:ker="http://pingidentity.com/2012/01/kerberos-realms">
+    <ker:KerberosRealms>
+        <ker:KerberosRealm id="KERB-2CC14562F1C26E758E0AC2E55818E1E9251E7F4B">
+            <ker:kerberosRealmName>plinkko.com</ker:kerberosRealmName>
+            <ker:keyDistributionCenters>
+                <ker:keyDistributionCenter>dc</ker:keyDistributionCenter>
+            </ker:keyDistributionCenters>
+            <ker:kerberosUsername>preado</ker:kerberosUsername>
+            <ker:kerberosPassword>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..dx24KJ999CgrcLvxX24loA.lnlxTdqOGtcj_uA1EQclfQ.SAWbEHJQJHK3J9AhVx-D7g</ker:kerberosPassword>
+            <ker:suppressDomainNameConcatenation>false</ker:suppressDomainNameConcatenation>
+        </ker:KerberosRealm>
+    </ker:KerberosRealms>
+    <ker:KdcTimeout>4000</ker:KdcTimeout>
+    <ker:KdcRetries>3</ker:KdcRetries>
+    <ker:ForceTcp>false</ker:ForceTcp>
+    <ker:Debug>true</ker:Debug>
+</ker:KerberosRealmsSettings>
