@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <md:EntityDescriptor entityID="PullfromCertandAD" urn:name="PullfromCertandAD" ID="i_XYrjeTLuoGsZR2jcV-CrhQHOD" urn:baseUrl="https://sptest.iamshowcase.com/acs" urn:LogLevel="STANDARD" urn:isActive="true" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:urn="urn:sourceid.org:saml2:metadata-extension:v2">
     <md:Extensions>
-        <urn:EntityExtension PFVersion="10.3.0.10" LicenseGroup="">
+        <urn:EntityExtension PFVersion="10.2.0.13" LicenseGroup="">
             <urn:DigitialSignatureAliases SigningKeyAlias="sdndquvzn9pl3iuf0159q14gi" includeX509inXmlSig="true" includeRawKeyInXmlSig="false" SigningAlgorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
             <urn:Encryption>
                 <urn:EncryptionPolicy EncryptionAlgorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc" KeyTransportAlgorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p" EncryptAssertion="false" EncryptSubjectNameID="false" SLOEncryptSubjectNameID="false"/>
@@ -20,7 +20,7 @@
     </md:Extensions>
     <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="false" WantAssertionsSigned="false" SignResponseAsRequired="true">
         <md:Extensions>
-            <urn:RoleExtension ArtifactTimeoutSeconds="60" LastModified="2021-07-21T19:24:11.078Z">
+            <urn:RoleExtension ArtifactTimeoutSeconds="60" LastModified="2021-11-03T20:01:40.843Z">
                 <urn:IncomingBindings Artifact="true" POST="true" Redirect="true" SOAP="true"/>
                 <urn:EnabledProfiles IDPInitiatedSSO="true" IDPInitiatedSLO="false" SPInitiatedSSO="false" SPInitiatedSLO="false"/>
                 <urn:SP AssertionValidityAfterMinutes="5" AssertionValidityBeforeMinutes="5" ConnectionTargetType="Standard" EnableCDCDuringSSO="false">
@@ -29,14 +29,13 @@
                             <urn:AttributeMap Name="uid" Type="Adapter" Value="saMAccountName"/>
                             <urn:AttributeMap Name="RFC822Name" Type="Adapter" Value="RFC822Name"/>
                             <urn:AttributeMap Name="EnhancedKeyUsage" Type="Adapter" Value="EnhancedKeyUsages"/>
-                            <urn:AttributeMap Name="SubjectAltName" Type="Adapter" Value="SubjectAltName"/>
-                            <urn:AttributeMap Name="Thumbprint" Type="Text" Value="MyTHUMB"/>
+                            <urn:AttributeMap Name="SubjectAltName" Type="Adapter" Value="Subject Alternative Name"/>
                             <urn:AttributeMap Name="givenName" Type="Adapter" Value="givenName"/>
                             <urn:AttributeMap Name="memeberOf" Type="Adapter" Value="memeberOf"/>
                             <urn:AttributeMap Name="KeyID" Type="Adapter" Value="KeyID"/>
                             <urn:AttributeMap Name="sn" Type="Adapter" Value="sn"/>
                             <urn:AttributeMap Name="Enhanced Key Usage" Type="Adapter" Value="EnhancedKeyUsages"/>
-                            <urn:AttributeMap Name="SAML_SUBJECT" Type="Adapter" Value="RFC822Name"/>
+                            <urn:AttributeMap Name="SAML_SUBJECT" Type="Adapter" Value="UserPrincipalName"/>
                             <urn:AttributeMap Name="Template" Type="Adapter" Value="Template"/>
                             <urn:TokenAuthorizationIssuanceCriteria/>
                         </urn:DefaultAttributeMapping>
@@ -51,7 +50,6 @@
             <md:ServiceName xml:lang="en">AttributeContract</md:ServiceName>
             <md:RequestedAttribute Name="uid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
             <md:RequestedAttribute Name="RFC822Name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
-            <md:RequestedAttribute Name="Thumbprint" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
             <md:RequestedAttribute Name="SubjectAltName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
             <md:RequestedAttribute Name="EnhancedKeyUsage" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
             <md:RequestedAttribute Name="givenName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>

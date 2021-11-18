@@ -6,7 +6,7 @@
         <ldap:use-ssl>false</ldap:use-ssl>
         <ldap:use-dns-srv-records>false</ldap:use-dns-srv-records>
         <ldap:ad-referral>false</ldap:ad-referral>
-        <ldap:credentials>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..7oj2L4W_JoBeLvKRx-5RwA.M6mbjh3ew2JS3jcx1f6LMQ.dzfd7SPYs8WPBBVd6b8fJw</ldap:credentials>
+        <ldap:credentials>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..fEXgENlqrqfSsZyjU_SuFA.lMS6JwrYEZkKYFRyyzWkSw.I77HTjZTAHTHgRIt4Lnipw</ldap:credentials>
         <ldap:authenticationMeth>simple</ldap:authenticationMeth>
         <ldap:description>AD</ldap:description>
         <ldap:name>AD</ldap:name>
@@ -16,18 +16,18 @@
         </ldap:ldapHostTagList>
     </ldap:ldap-source>
     <ldap:ldap-source id="LDAP-8D5ABD14525235BCBA3C539AC65AFD5C38469E1F" maskAttributeValues="false" ldapType="PingDirectory" ldapTypeDesc="PingDirectory" testOnBorrow="false" testOnReturn="false" createIfNecessary="true" minIdle="10" maxActive="100" maxWait="-1" timeBetweenEvictionRunsMillis="60000" readTimeoutMillis="3000" connTimeoutMillis="3000" verifyHost="true" dnsTtlMillis="60000" ldapDnsSrvPrefix="_ldap._tcp" ldapsDnsSrvPrefix="_ldaps._tcp">
-        <ldap:host>dcentos.plinkko.com:4389</ldap:host>
-        <ldap:principal>cn=dadmin</ldap:principal>
+        <ldap:host>dcentos.plinkko.com:1389</ldap:host>
+        <ldap:principal>cn=admin</ldap:principal>
         <ldap:use-ssl>false</ldap:use-ssl>
         <ldap:use-dns-srv-records>false</ldap:use-dns-srv-records>
         <ldap:ad-referral>false</ldap:ad-referral>
-        <ldap:credentials>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..cm3Hji_zO2pzAbJ5YZz_3w.rcrt8gP3MmKqflMtzHY5QA.8dIXoigsWZE-Ob3OG4OIWw</ldap:credentials>
+        <ldap:credentials>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..w5ZzHfo05D5sExjmsl2cxQ.45enGLW--MFsSOkF5q_4IQ.Vci99bktxkl_mfIw8gIQ5A</ldap:credentials>
         <ldap:authenticationMeth>simple</ldap:authenticationMeth>
         <ldap:description>DcentOS</ldap:description>
         <ldap:name>DcentOS</ldap:name>
         <ldap:binaryAttributes/>
         <ldap:ldapHostTagList>
-            <ldap:tagEntry host="dcentos.plinkko.com:4389" tags=""/>
+            <ldap:tagEntry host="dcentos.plinkko.com:1389" tags=""/>
         </ldap:ldapHostTagList>
     </ldap:ldap-source>
 </ldap:ldap-sources>

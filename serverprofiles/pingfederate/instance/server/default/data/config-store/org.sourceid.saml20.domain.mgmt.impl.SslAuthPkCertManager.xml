@@ -24,4 +24,6 @@
     <con:map name="CN=Centrify:Customer:ABF0415"/>
     <con:map name="CN=Centrify:Customer ABF0415"/>
     <con:map name="CN=Centrify Customer ABF0415"/>
+    <con:map name="CopyCN=Centrify:Customer:ABF0415"/>
+    <con:map name="https://dcentos.plinkko.com"/>
 </con:config>
