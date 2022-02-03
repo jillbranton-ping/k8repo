@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" name="RADIUSPVC" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields>
+        <urn:Field name="NAS Identifier">PingFederate</urn:Field>
+        <urn:Field name="Timeout">3000</urn:Field>
+        <urn:Field name="Retry Count">3</urn:Field>
+        <urn:Field name="Allow Challenge Retries after Access-Reject">false</urn:Field>
+    </urn:Fields>
+    <urn:AdvancedFields>
+        <urn:Field name="NAS Identifier">PingFederate</urn:Field>
+        <urn:Field name="Timeout">3000</urn:Field>
+        <urn:Field name="Retry Count">3</urn:Field>
+        <urn:Field name="Allow Challenge Retries after Access-Reject">false</urn:Field>
+    </urn:AdvancedFields>
+    <urn:Tables>
+        <urn:Table name="RADIUS Servers">
+            <urn:Row defaultRow="false">
+                <urn:Field name="Hostname">test</urn:Field>
+                <urn:Field name="Authentication Port">1812</urn:Field>
+                <urn:Field name="Authentication Protocol">PAP</urn:Field>
+                <urn:Field name="Shared Secret">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..5M6HvywcjrXHa4bI2hIWtw.PZkpuldFhrBBSCq0FRquhA._1SQ-QCRyX584QLlIrMEtg</urn:Field>
+            </urn:Row>
+        </urn:Table>
+    </urn:Tables>
+    <urn:ExtendedContractAttributes/>
+</urn:PluginConfiguration>
