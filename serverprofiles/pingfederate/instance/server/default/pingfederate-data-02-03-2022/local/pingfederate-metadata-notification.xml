@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:metadataNotificationSettings xmlns:met="http://pingidentity.com/2015/01/metadata-notification">
+    <met:metadataNotificationType>
+        <met:urlId>mn2MXUHNio0FCyntXnsPUefOw</met:urlId>
+        <met:notificationSent>false</met:notificationSent>
+    </met:metadataNotificationType>
+</met:metadataNotificationSettings>

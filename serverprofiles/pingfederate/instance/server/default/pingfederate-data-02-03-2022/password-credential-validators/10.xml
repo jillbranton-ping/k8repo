@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" name="psswdvalidator" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields/>
+    <urn:AdvancedFields/>
+    <urn:Tables>
+        <urn:Table name="Users">
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">jill</urn:Field>
+                <urn:Field name="Password">8B3cHNBZaxqnAAo83zZ17QR8ZqTF7HiK1v1zfPlABm8.8FPnVCaq.2</urn:Field>
+                <urn:Field name="Confirm Password">8nzbld8ZIfXv8PQ6N23DdinGI7ajcf60zY6R8SrZ-0Y.swHTJAQX.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">true</urn:Field>
+            </urn:Row>
+        </urn:Table>
+    </urn:Tables>
+</urn:PluginConfiguration>
