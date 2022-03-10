@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:AdapterConfiguration authnCtxClassRef="" isInheritAttributeSettings="false" isInheritAttributeMapping="false" maskOgnlValues="false" uniqueUserKeyField="username" isInheritExtendedContractAttributes="false" name="GreenAuthenticator" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields>
+        <urn:Field name="Authentication Endpoint">https://radius.plinkko.com:1412</urn:Field>
+        <urn:Field name="User Name">administrator</urn:Field>
+        <urn:Field name="Pass Phrase">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4yLjAuMTMifQ..rrGvmhlEsuhGshpz8OOCZQ.WGS6vs8bXj-MprnWX68HrA.rADT_8pnAQsSwxvW-iM3ig</urn:Field>
+        <urn:Field name="Allowed Subject DN"/>
+        <urn:Field name="Allowed Issuer DN"/>
+        <urn:Field name="Logout Service Endpoint"/>
+        <urn:Field name="Logout Mode">NONE</urn:Field>
+        <urn:Field name="Prefix Referenced Attributes">true</urn:Field>
+        <urn:Field name="Ignore Untracked HTTP Parameters">true</urn:Field>
+        <urn:Field name="Send Request Parameters">NONE</urn:Field>
+        <urn:Field name="Transport Mode">2</urn:Field>
+        <urn:Field name="Reference Duration">3</urn:Field>
+        <urn:Field name="Reference Length">30</urn:Field>
+        <urn:Field name="Require SSL/TLS">true</urn:Field>
+        <urn:Field name="Outgoing Attribute Format">JSON</urn:Field>
+        <urn:Field name="Incoming Attribute Format">JSON</urn:Field>
+        <urn:Field name="Skip Host Name Validation ">false</urn:Field>
+        <urn:Field name="Relax Password Requirements">false</urn:Field>
+    </urn:Fields>
+    <urn:AdvancedFields>
+        <urn:Field name="Prefix Referenced Attributes">true</urn:Field>
+        <urn:Field name="Ignore Untracked HTTP Parameters">true</urn:Field>
+        <urn:Field name="Send Request Parameters">NONE</urn:Field>
+        <urn:Field name="Transport Mode">2</urn:Field>
+        <urn:Field name="Reference Duration">3</urn:Field>
+        <urn:Field name="Reference Length">30</urn:Field>
+        <urn:Field name="Require SSL/TLS">true</urn:Field>
+        <urn:Field name="Outgoing Attribute Format">JSON</urn:Field>
+        <urn:Field name="Incoming Attribute Format">JSON</urn:Field>
+        <urn:Field name="Skip Host Name Validation ">false</urn:Field>
+        <urn:Field name="Relax Password Requirements">false</urn:Field>
+    </urn:AdvancedFields>
+    <urn:Tables/>
+    <urn:ExtendedContractAttributes>
+        <urn:AttributeName>username</urn:AttributeName>
+    </urn:ExtendedContractAttributes>
+    <urn:UniqueKeyField>username</urn:UniqueKeyField>
+    <urn:AttributeMapping>
+        <urn1:AttributeMap Name="subject" Type="Adapter" Value="subject" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="username" Type="Adapter" Value="username" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeSource Id="AD" Description="PlilnkkoAD" Type="LDAP" DataSourceId="LDAP-2BCBE93812F6E0D46BD3052E63F557E7309EF1BF" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+            <urn1:Parameter Name="filter" Value="userPrincipalName=${username}"/>
+            <urn1:Parameter Name="search_base" Value=""/>
+            <urn1:Parameter Name="search_scope" Value="SUBTREE_SCOPE"/>
+            <urn1:Parameter Name="memberof_nested_group" Value="false"/>
+        </urn1:AttributeSource>
+        <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+    </urn:AttributeMapping>
+</urn:AdapterConfiguration>

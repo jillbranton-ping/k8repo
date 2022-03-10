@@ -11,6 +11,8 @@
         <con:item name="cert2user">com.pingidentity.adapters.idp.clientcert.ClientCertIdpAuthnAdapter</con:item>
         <con:item name="auth2sendemail">com.pingidentity.adapters.httpbasic.idp.HttpBasicIdpAuthnAdapter</con:item>
         <con:item name="radiusidp">com.pingidentity.adapters.htmlform.idp.HtmlFormIdpAuthnAdapter</con:item>
+        <con:item name="greenauth">com.pingidentity.pf.adapters.referenceid.IdpBackchannelReferenceAuthnAdapter</con:item>
+        <con:item name="gandr">com.pingidentity.pf.adapters.composite.CompositeAdapter</con:item>
     </con:map>
     <con:map name="SpAuthnAdapterInstances">
         <con:item name="partnerSPadpt">com.pingidentity.adapters.opentoken.SpAuthnAdapter</con:item>
