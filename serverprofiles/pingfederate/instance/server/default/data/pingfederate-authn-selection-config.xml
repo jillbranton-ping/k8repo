@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:AuthnSelectionConfig lastModifiedMillis="1646421898070" enableAuthnSelection="true" enableSpAuthnSelection="false" failIfNoSelection="false" xmlns:urn="urn:pingidentity.com:pf:authn-selection">
+<urn:AuthnSelectionConfig lastModifiedMillis="1658948360508" enableAuthnSelection="true" enableSpAuthnSelection="false" failIfNoSelection="false" xmlns:urn="urn:pingidentity.com:pf:authn-selection">
     <urn:AuthnSelectionTrees>
-        <urn:AuthnSelectionTree treeName="FileCloudPolicy" disabled="false" authnApiApp="">
+        <urn:AuthnSelectionTree treeId="t5G1PVZMhwkQxnuw7j7XIJTnu" treeName="FileCloudPolicy" disabled="false" authnApiApp="" handleFailuresLocally="false">
             <urn:AstRoot context="">
                 <urn:AstAction authnSelectorId="FileCloudSelector" xsi:type="urn:AuthnSelectorActionType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
                 <urn:AstChild context="No">
@@ -19,8 +19,12 @@
                     <urn:AstChild context="Success">
                         <urn:AstAction apcId="YHsDDoUJ2TBKrb5v" xsi:type="urn:ApcMappingActionType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                             <urn:AttributeMapping>
-                                <urn1:AttributeMap Name="subject" Type="Adapter" AttributeSourceId="ADHTMLAdapter" Value="username" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
-                                <urn1:AttributeMap Name="email" Type="Text" Value="pmanning@plinkko.com" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+                                <urn1:AttributeMap Name="subject" Type="Adapter" AttributeSourceId="ADHTMLAdapter" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+                                    <urn1:ValueText>username</urn1:ValueText>
+                                </urn1:AttributeMap>
+                                <urn1:AttributeMap Name="email" Type="Text" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+                                    <urn1:ValueText>pmanning@plinkko.com</urn1:ValueText>
+                                </urn1:AttributeMap>
                                 <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
                             </urn:AttributeMapping>
                         </urn:AstAction>
@@ -28,7 +32,7 @@
                 </urn:AstChild>
             </urn:AstRoot>
         </urn:AuthnSelectionTree>
-        <urn:AuthnSelectionTree treeName="PolicyPullCertandAD" disabled="true" authnApiApp="">
+        <urn:AuthnSelectionTree treeId="c2degpzupF7kj4EDWODkrEP8k" treeName="PolicyPullCertandAD" disabled="true" authnApiApp="" handleFailuresLocally="false">
             <urn:AstRoot context="">
                 <urn:AstAction xsi:type="urn:AuthnSourceActionType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <urn:AuthnSourceKey type="ADAPTER">11</urn:AuthnSourceKey>
@@ -41,15 +45,19 @@
                 <urn:AstChild context="Success">
                     <urn:AstAction apcId="YHsDDoUJ2TBKrb5v" xsi:type="urn:ApcMappingActionType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                         <urn:AttributeMapping>
-                            <urn1:AttributeMap Name="subject" Type="Adapter" AttributeSourceId="11" Value="username" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
-                            <urn1:AttributeMap Name="email" Type="Adapter" AttributeSourceId="11" Value="email" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+                            <urn1:AttributeMap Name="subject" Type="Adapter" AttributeSourceId="11" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+                                <urn1:ValueText>username</urn1:ValueText>
+                            </urn1:AttributeMap>
+                            <urn1:AttributeMap Name="email" Type="Adapter" AttributeSourceId="11" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+                                <urn1:ValueText>email</urn1:ValueText>
+                            </urn1:AttributeMap>
                             <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
                         </urn:AttributeMapping>
                     </urn:AstAction>
                 </urn:AstChild>
             </urn:AstRoot>
         </urn:AuthnSelectionTree>
-        <urn:AuthnSelectionTree treeName="Policy1" disabled="true" authnApiApp="">
+        <urn:AuthnSelectionTree treeId="apvirEipBruAZKAiZErhyw47D" treeName="Policy1" disabled="true" authnApiApp="" handleFailuresLocally="false">
             <urn:AstRoot context="">
                 <urn:AstAction authnSelectorId="ExtendProp" xsi:type="urn:AuthnSelectorActionType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
                 <urn:AstChild context="HTML">
@@ -64,8 +72,12 @@
                     <urn:AstChild context="Success">
                         <urn:AstAction apcId="YHsDDoUJ2TBKrb5v" xsi:type="urn:ApcMappingActionType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                             <urn:AttributeMapping>
-                                <urn1:AttributeMap Name="subject" Type="Adapter" AttributeSourceId="HTMLFormSimplePCV" Value="username" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
-                                <urn1:AttributeMap Name="email" Type="LDAP" AttributeSourceId="AD" Value="mail" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+                                <urn1:AttributeMap Name="subject" Type="Adapter" AttributeSourceId="HTMLFormSimplePCV" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+                                    <urn1:ValueText>username</urn1:ValueText>
+                                </urn1:AttributeMap>
+                                <urn1:AttributeMap Name="email" Type="LDAP" AttributeSourceId="AD" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+                                    <urn1:ValueText>mail</urn1:ValueText>
+                                </urn1:AttributeMap>
                                 <urn1:AttributeSource Id="AD" Description="PlilnkkoAD" Type="LDAP" DataSourceId="LDAP-2BCBE93812F6E0D46BD3052E63F557E7309EF1BF" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
                                     <urn1:Parameter Name="filter" Value="sAMacccountName=${ad.HTMLFormSimplePCV.username}"/>
                                     <urn1:Parameter Name="search_base" Value="dc=plinkko, dc=com"/>
@@ -82,7 +94,7 @@
                 </urn:AstChild>
             </urn:AstRoot>
         </urn:AuthnSelectionTree>
-        <urn:AuthnSelectionTree treeName="AuthTwice" disabled="true" authnApiApp="">
+        <urn:AuthnSelectionTree treeId="veB0dPioPjDWOu8nrepm85PC1" treeName="AuthTwice" disabled="true" authnApiApp="" handleFailuresLocally="false">
             <urn:AstRoot context="">
                 <urn:AstAction xsi:type="urn:AuthnSourceActionType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <urn:AuthnSourceKey type="ADAPTER">4</urn:AuthnSourceKey>
@@ -96,7 +108,9 @@
                     <urn:AstAction xsi:type="urn:AuthnSourceActionType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                         <urn:AuthnSourceKey type="ADAPTER">greenauth</urn:AuthnSourceKey>
                         <urn:fallbackToSuccess>true</urn:fallbackToSuccess>
-                        <urn:InputIdMapping Type="Adapter" AttributeSourceId="4" Value="SubjectDN"/>
+                        <urn:InputIdMapping Type="Adapter" AttributeSourceId="4">
+                            <urn1:ValueText xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">SubjectDN</urn1:ValueText>
+                        </urn:InputIdMapping>
                         <urn:userIdAuthenticated>true</urn:userIdAuthenticated>
                     </urn:AstAction>
                     <urn:AstChild context="Fail">
@@ -105,9 +119,15 @@
                     <urn:AstChild context="Success">
                         <urn:AstAction apcId="Gps2hzJUhsxJXDbD" xsi:type="urn:ApcMappingActionType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                             <urn:AttributeMapping>
-                                <urn1:AttributeMap Name="subject" Type="Adapter" AttributeSourceId="4" Value="mail" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
-                                <urn1:AttributeMap Name="email_verify" Type="Adapter" AttributeSourceId="4" Value="SerialNumber" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
-                                <urn1:AttributeMap Name="email" Type="Adapter" AttributeSourceId="4" Value="mail" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+                                <urn1:AttributeMap Name="subject" Type="Adapter" AttributeSourceId="4" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+                                    <urn1:ValueText>mail</urn1:ValueText>
+                                </urn1:AttributeMap>
+                                <urn1:AttributeMap Name="email_verify" Type="Adapter" AttributeSourceId="4" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+                                    <urn1:ValueText>SerialNumber</urn1:ValueText>
+                                </urn1:AttributeMap>
+                                <urn1:AttributeMap Name="email" Type="Adapter" AttributeSourceId="4" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+                                    <urn1:ValueText>mail</urn1:ValueText>
+                                </urn1:AttributeMap>
                                 <urn1:AttributeSource Id="AD" Description="PlilnkkoAD" Type="LDAP" DataSourceId="LDAP-2BCBE93812F6E0D46BD3052E63F557E7309EF1BF" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
                                     <urn1:Parameter Name="filter" Value="userPrincipalName=${ad.greenauth.username}"/>
                                     <urn1:Parameter Name="search_base" Value=""/>

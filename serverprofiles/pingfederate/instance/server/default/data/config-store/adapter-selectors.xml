@@ -4,5 +4,6 @@
         <con:item name="OAuthSelector">com.pingidentity.pf.selectors.oauthclient.OAuthClientAdapterSelector</con:item>
         <con:item name="ExtendProp">com.pingidentity.pf.selectors.ExtendedPropertyAuthnSelector</con:item>
         <con:item name="FileCloudSelector">com.pingidentity.pf.selectors.connectionset.ConnectionSetAdapterSelector</con:item>
+        <con:item name="ipinternal">com.pingidentity.pf.selectors.cidr.CIDRAdapterSelector</con:item>
     </con:map>
 </con:config>
