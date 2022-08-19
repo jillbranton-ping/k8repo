@@ -7,8 +7,8 @@
     <con:map name="ConnectionManagement"/>
     <con:map name="AttributeQuery">
         <con:item name="id">baetestID</con:item>
-        <con:item name="confirmSharedSecret">It-2UuLRONTwSa-bEzgTAfGknZyCfIY-VTXcW2HxYzM.O_cjtvNL.2</con:item>
+        <con:item name="confirmSharedSecret">oIq51f4qgHrAEgr1Ul3J-6du1DWBTPUd4AhWQGmc9lc.OqERrq5W.2</con:item>
         <con:item name="isActive">true</con:item>
-        <con:item name="sharedSecret">It-2UuLRONTwSa-bEzgTAfGknZyCfIY-VTXcW2HxYzM.O_cjtvNL.2</con:item>
+        <con:item name="sharedSecret">oIq51f4qgHrAEgr1Ul3J-6du1DWBTPUd4AhWQGmc9lc.OqERrq5W.2</con:item>
     </con:map>
 </con:config>
